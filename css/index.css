@@ -1,0 +1,111 @@
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.customers td, #customers th {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+}
+  
+.customers tr {
+    background-color: #f2f2f2;
+}
+  
+.customers tr:hover {
+    background-color: #ddd;
+}
+  
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+table{display:block; width:100%; overflow-x: auto; white-space: nowrap;}
+
+.table {
+    box-shadow: 5px 5px 5px;
+    border: 15px solid rgb(245, 245, 245);
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 320px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.form {
+    box-shadow: 5px 5px 5px;
+    border: 15px solid rgb(245, 245, 245);
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+    width: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.dados {
+    width: 380px;
+    margin: 10px 5px 0px;
+}
+
+.datatable {
+    width: 480px;
+    margin: 10px 50px 0px;
+}
+
+.input input {
+    background-color: rgb(231, 231, 231);
+    width: 55%;
+    padding: 12px 20px;
+    margin: 0px 0px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input select {
+    background-color: rgb(231, 231, 231);
+    width: 55%;
+    padding: 12px 20px;
+    margin: 0px 0px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button input[type="submit"] {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(3, 105, 238);
+    color: white;
+    background-color: rgb(3, 105, 238);
+    width: 200px;
+    margin: 0px 5px 0px;
+}
+
+.btn input[type="submit"]:hover {
+    background-color: rgb(4, 78, 175);
+    border: 2px solid rgb(4, 78, 175);
+    cursor: Pointer;
+}
+
+.conteudo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/fundo2.png");
+    background-size: cover;
+}
